@@ -5,8 +5,6 @@ const user = {
   username: "",
 };
 
-let mensaje = "";
-
 const chatbox = document.querySelector("#send-chat");
 const buttonChatbox = document.querySelector("#send-button-chat");
 const contenedorChat = document.querySelector("#contenedor-chat");

@@ -1,5 +1,5 @@
 import express from "express";
-import VistasRoute from "./src/routes/vistas.router.js";
+import VistasRoute from "./routes/vistas.router.js";
 import { Server } from "socket.io";
 import handlebars from "express-handlebars";
 import path from "path";

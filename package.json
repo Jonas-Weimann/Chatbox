@@ -1,7 +1,7 @@
 {
-  "name": "proyecto-con-express",
+  "name": "chat-con-web-socket",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "start": "node --watch src/server.js"
   },

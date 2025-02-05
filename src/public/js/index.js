@@ -1,5 +1,4 @@
 const socket = io();
-console.log("index js");
 
 const user = {
   username: "",
@@ -45,7 +44,6 @@ buttonChatbox.addEventListener("click", () => {
 
 socket.on("logs", (data) => {
   contenedorChat.innerHTML = "";
-  console.log(data);
   data.forEach((chat) => {
     const div = document.createElement("div");
     div.innerHTML = `
